@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FormLevelValidation from './FormLevelValidation';
+import FormYupValidation from './FormYupValidation';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App />
+    <FormYupValidation />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
